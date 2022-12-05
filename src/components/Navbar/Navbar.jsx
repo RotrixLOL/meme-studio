@@ -16,7 +16,7 @@ const Navbar = () => {
         </span>
       </FwNavbar.Brand>
       <div className="flex md:order-2">
-        {/* <DarkThemeToggle style={{ marginRight: "1rem" }} /> */}
+        <DarkThemeToggle style={{ marginRight: "1rem" }} />
         <Button>Get Started</Button>
         <FwNavbar.Toggle style={{ marginLeft: "0.5rem" }} />
       </div>

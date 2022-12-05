@@ -3,7 +3,7 @@ import { Footer as FwFooter } from "flowbite-react";
 
 const Footer = () => {
   return (
-    <Footer container={true}>
+    <FwFooter container={true}>
       <div className="w-full text-center">
         <div className="w-full justify-between sm:flex sm:items-center sm:justify-between">
           <FwFooter.Brand
@@ -22,7 +22,7 @@ const Footer = () => {
         <FwFooter.Divider />
         <FwFooter.Copyright href="#" by="Meme Studio" year={2022} />
       </div>
-    </Footer>
+    </FwFooter>
   );
 };
 
