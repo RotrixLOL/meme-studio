@@ -7,7 +7,11 @@ module.exports = {
     "./node_modules/flowbite-react/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        apple: ["SF Pro Display", "sans-serif"],
+      },
+    },
   },
   plugins: [require("flowbite/plugin")],
 };

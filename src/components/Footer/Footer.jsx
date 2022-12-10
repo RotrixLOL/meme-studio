@@ -3,7 +3,7 @@ import { Footer as FwFooter } from "flowbite-react";
 
 const Footer = () => {
   return (
-    <FwFooter container={true}>
+    <FwFooter container={true} className="sticky">
       <div className="w-full text-center">
         <div className="w-full justify-between sm:flex sm:items-center sm:justify-between">
           <FwFooter.Brand
@@ -12,11 +12,14 @@ const Footer = () => {
             alt="Meme Studio Logo"
             name="Meme Studio"
           />
-          <FwFooter.LinkGroup>
-            <FwFooter.Link href="#">About</FwFooter.Link>
-            <FwFooter.Link href="#">Privacy Policy</FwFooter.Link>
-            <FwFooter.Link href="#">License</FwFooter.Link>
-            <FwFooter.Link href="#">Contact</FwFooter.Link>
+          <FwFooter.LinkGroup className="md:gap-4 gap-1">
+            <FwFooter.Link href="/about">About</FwFooter.Link>
+            <FwFooter.Link href="https://github.com/RotrixLOL/meme-studio">
+              Repo
+            </FwFooter.Link>
+            <FwFooter.Link href="https://github.com/RotrixLOL/meme-studio/blob/main/LICENSE">
+              License
+            </FwFooter.Link>
           </FwFooter.LinkGroup>
         </div>
         <FwFooter.Divider />
